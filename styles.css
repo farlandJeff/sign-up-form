@@ -88,3 +88,20 @@ h1 {
     height: 160px;
     width: 135px;
 }
+
+body {
+    background-color: #12100E;
+}
+
+p {
+    color: white;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 50px;
+}
+
+.form-sect {
+    display: flex;
+}
