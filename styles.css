@@ -78,7 +78,10 @@ table {
 
 h1 {
     color: white;
-    font-size: 48px;
+    font-size: 58px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
 }
 
 .logo-text img {
