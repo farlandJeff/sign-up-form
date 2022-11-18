@@ -60,3 +60,10 @@ table {
     width: 687px;
     height: 100vh;
 }
+
+.logo-text {
+    background-color: black;
+    height: 150px;
+    position: relative;
+    top: 200px;
+}
