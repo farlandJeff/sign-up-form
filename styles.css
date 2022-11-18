@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&display=swap');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -102,6 +102,6 @@ p {
     padding: 50px;
 }
 
-.form-sect {
-    display: flex;
+.bold {
+    font-weight: 700;
 }
