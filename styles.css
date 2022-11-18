@@ -51,7 +51,7 @@ table {
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .logo-sect {
@@ -66,8 +66,20 @@ table {
     height: 150px;
     position: relative;
     top: 200px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     color: white;
+    font-size: 48px;
+}
+
+.logo-text img {
+    height: 160px;
+    width: 135px;
 }
