@@ -174,8 +174,11 @@ button {
 button:hover {
     background-color: #DA8411;
     color: black;
-    border-width: 5px 0 0;
-    border-color: #007300;
+    
+}
+
+a {
+    color: #DA8411;
 }
 
 /* #231F1B for form background */
