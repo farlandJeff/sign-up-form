@@ -121,7 +121,8 @@ p {
 
 .form-container {
     background-color: #231F1B;
-    padding: 20px 0px;
+    padding-top: 20px;
+    box-shadow: 0 10px 20px -2px rgb(22 22 22);
 }
 
 .input-container {
@@ -145,4 +146,16 @@ label {
     letter-spacing: .1rem;
     padding-bottom: 2px;
 }
+
+input:focus {
+    border-color: #DA8411;
+}
+
+input {
+    outline: none;
+    border-width: 0 0 3px;
+    border-color: #231F1B;
+}
+
 /* #231F1B for form background */
+/* #da8411 for pineapple */
