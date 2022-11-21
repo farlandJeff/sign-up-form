@@ -119,4 +119,9 @@ p {
     padding: 40px 50px;
 }
 
+.form-container {
+    background-color: #231F1B;
+    padding: 20px 0px;
+}
+
 /* #231F1B for form background */
