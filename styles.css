@@ -127,11 +127,22 @@ p {
 .input-container {
     display: flex;
     flex-direction: column;
+    width: 40%;
 }
 
 .form-inputs {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 
     padding: 20px 50px;
+}
+
+label {
+    color: lightgray;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .1rem;
+    padding-bottom: 2px;
 }
 /* #231F1B for form background */
