@@ -6,6 +6,8 @@ document.querySelector('#my-form').addEventListener("submit", (event) => {
     if (pass != passConf) {
         event.preventDefault();
         passMsg.textContent = "* Passwords do not match";
+        document.querySelector('#password').style.borderColor = 'red';
+        document.querySelector('#password-confirm').style.borderColor = 'red';
         return false;
     } else {
         passMsg.textContent = "";
