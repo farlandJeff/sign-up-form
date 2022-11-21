@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -19,7 +20,7 @@
             <p>This is not a real online service! You know you need a community based around a collective love of pineapples.</p>
             <p>Sign up <span class="bold">now</span> to get started.</p>
             <p class="spaced-para">You <span class="bold">know</span> you want to.</p>
-            <form action="#" method="post">
+            <form id="my-form" action="http://httpbin.org/post" method="post">
                 <div class="form-container">
                     <p>Let's do this!</p>
                     <div class="form-inputs">
@@ -42,6 +43,7 @@
                         <div class="input-container">
                             <label for="password">PASSWORD</label>
                             <input type="text" name="password" id="password" required>
+                            <p class="pass-conf"></p>
                         </div>
                         <div class="input-container">
                             <label for="password-confirm">CONFIRM PASSWORD</label>

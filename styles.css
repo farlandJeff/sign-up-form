@@ -181,5 +181,11 @@ a {
     color: #DA8411;
 }
 
+.pass-conf {
+    font-size: 11px;
+    color: red;
+    padding-left: 0px;
+}
+
 /* #231F1B for form background */
 /* #da8411 for pineapple */
