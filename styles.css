@@ -100,7 +100,7 @@ p {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    padding: 0px 50px;
+    padding: 3px 50px;
 }
 
 .bold {
@@ -113,6 +113,10 @@ p {
     flex-direction: column;
 
     width: 65vw;
+}
+
+.spaced-para {
+    padding: 40px 50px;
 }
 
 /* #231F1B for form background */
