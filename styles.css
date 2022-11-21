@@ -124,4 +124,14 @@ p {
     padding: 20px 0px;
 }
 
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-inputs {
+    display: flex;
+
+    padding: 20px 50px;
+}
 /* #231F1B for form background */
