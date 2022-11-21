@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700;900&display=swap');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -155,6 +155,27 @@ input {
     outline: none;
     border-width: 0 0 3px;
     border-color: #231F1B;
+}
+
+button {
+    margin: 30px 50px;
+    width: 180px;
+    height: 50px;
+    border: solid 3px #DA8411;
+    background-color: #12100E;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .2rem;
+    font-weight: 900;
+    color: #DA8411;
+}
+
+button:hover {
+    background-color: #DA8411;
+    color: black;
+    border-width: 5px 0 0;
+    border-color: #007300;
 }
 
 /* #231F1B for form background */
